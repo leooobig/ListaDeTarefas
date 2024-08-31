@@ -8,6 +8,8 @@ def validando_opcao():
             opcao = int(opcao)
             if opcao in (1, 2, 3, 4, 5):
                 return opcao
+            else:
+                print('Opção inválida, tente novamente.')
         except ValueError:
             print('Opção inválida, tente novamente.')
         
